@@ -8,7 +8,7 @@
 
 # ## Government Spending
 
-# In[20]:
+# In[2]:
 
 
 import sovai as sov
@@ -16,17 +16,22 @@ sov.token_auth(token="visit https://sov.ai/profile for your token")
 
 # #### Processed Dataset
 
-# In[24]:
+# In[ ]:
 
 
 df_awards = sov.data("spending/awards",  purge_cache=True, start_date="2025-09-01")
 
-# In[25]:
+# In[4]:
+
+
+df_awards.head()
+
+# In[ ]:
 
 
 df_contracts = sov.data("spending/contracts",  purge_cache=True, start_date="2025-09-01")
 
-# In[26]:
+# In[7]:
 
 
 df_contracts

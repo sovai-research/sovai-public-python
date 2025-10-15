@@ -338,7 +338,7 @@ def update_figure(date_range, sample_size):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
 
 # In[13]:
 

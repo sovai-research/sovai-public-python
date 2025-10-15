@@ -43,10 +43,10 @@ sov.token_auth(token="visit https://sov.ai/profile for your token")
 
 # #### Processed Dataset
 
-# In[3]:
+# In[ ]:
 
 
-df_news = sov.data("news/daily", tickers=["MSFT","TSLA", "AAPL","NVDA"]); df_news.tail()
+df_news = sov.data("news/daily", tickers=["MSFT","TSLA", "AAPL","NVDA"], verbose=True); df_news.tail()
 
 # In[4]:
 
